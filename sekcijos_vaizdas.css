@@ -1,0 +1,49 @@
+.pagrPavadinimas {
+    text-align:center;
+    font-size:500%;
+    color:rgb(73, 184, 132);
+    text-shadow:
+        -2px -2px 0 rgb(155, 252, 206);
+	
+}
+img {
+    height:100px;
+    animation-name:koala;
+    animation-duration:50ms;
+    transform: rotate(0deg);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.pagrLentele {
+    margin:auto;
+}
+.pagrH2 {
+    text-align:center;
+    font-size:120%;
+    color:#9543A0;
+    
+}
+td {
+    padding:10px;
+    text-align:center;
+}
+body {
+    font-size:16pt;
+    margin:20pt;
+    background-color:#444545;
+    animation-name:fonas;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+a {
+    text-decoration:none;
+}
+@keyframes fonas{
+    from {background-color:#444545;}
+    to {background-color:#313834;}
+}
+@keyframes koala {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}
