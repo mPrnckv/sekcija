@@ -9,7 +9,7 @@
 img {
     height:100px;
     animation-name:koala;
-    animation-duration:50ms;
+    animation-duration:100ms;
     transform: rotate(0deg);
     animation-iteration-count: infinite;
     animation-direction: alternate;
